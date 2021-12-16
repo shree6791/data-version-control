@@ -1,0 +1,8 @@
+[core]
+    analytics = false
+    remote = myremote
+[cache]
+    dir = /home/ubuntu/code/shared
+    type = symlink
+['remote "myremote"']
+    url = s3://dropout-devusers/shreensu/dvcstore
